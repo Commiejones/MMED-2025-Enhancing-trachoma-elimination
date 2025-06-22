@@ -3,5 +3,3 @@
 
 [Kamau: Characterizing trachoma elimination using serology](https://www.medrxiv.org/content/10.1101/2024.09.20.24313635v1)
 
-
-
