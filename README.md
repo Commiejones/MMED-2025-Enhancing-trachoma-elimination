@@ -1,10 +1,10 @@
 # MMED-2025-Enhancing-trachoma-elimination
 
-##Objective: To evaluate how  the age distribution of antibiotic distribution and clinical markers of disease can be used to improve trachoma modeling
+## Objective: To evaluate how  the age distribution of antibiotic distribution and clinical markers of disease can be used to improve trachoma modeling
 
 **Group Lead**: Jonathan Dushoff
 
-**Group members**:
+**Group members**
 -Comfort Jones
 -Saiusha Lutchman
 -Thatohatsi Sefuthi
