@@ -1,4 +1,4 @@
-# MMED-2025-Enhancing-trachoma-elimination
+# Enhancing trachoma elimination (MMED 2025 Project)
 
 ## Objective: To evaluate how  the age distribution of antibiotic distribution and clinical markers of disease can be used to improve trachoma modeling
 
