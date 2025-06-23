@@ -14,5 +14,4 @@
 ### Quick Links
   - [Google Drive](https://drive.google.com/drive/u/0/folders/1RP6rM1Pky1ktKS0UwlI6ghnJioD7OPKc) for project documents
 
-
 * [Resources page](resources.md)
