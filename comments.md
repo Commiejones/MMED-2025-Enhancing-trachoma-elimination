@@ -1,8 +1,12 @@
 
-Can you document where you got these data?
-trachoma_sero_transmission_analysis_cluster.csv
-trachoma_sero_transmission_analysis_indiv.csv
-trachoma_sero_transmission_analysis_study.csv
+It's better to avoid library bloat, and better to avoid calling tidyverse all at the same time, especially when saving scripts. I'm pretty sure that the libraries you need are 
+```
+library(readr)       
+library(dplyr)       
+library(tidyr)       
+library(purrr)       
+library(ggplot2)     
+```
 
 Please avoid long paths (and paths with spaces) in your scripts. 
 * cluster_data <- read_csv("Documents/AIMS/MMED/MMED R/MMED TRACHOMA/…
