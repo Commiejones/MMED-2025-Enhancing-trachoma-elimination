@@ -15,4 +15,4 @@
   - [Google Drive](https://drive.google.com/drive/u/0/folders/1RP6rM1Pky1ktKS0UwlI6ghnJioD7OPKc) for project documents
   - [Research Questions and members contribution](https://docs.google.com/document/d/1KClwIQRum1XEbzgLSey7Pvsybo0mwRPbJHrX4CfjF1A/edit?tab=t.0#heading=h.hidt2gwvv67y)
   - [Resources page](resources.md)
-  - [Task List][Enhancing Trachoma Elimination_Project Plan.pdf](https://github.com/user-attachments/files/20901540/Enhancing.Trachoma.Elimination_Project.Plan.pdf)
+  - [Enhancing Trachoma Elimination_Project Plan.pdf](https://github.com/user-attachments/files/20901540/Enhancing.Trachoma.Elimination_Project.Plan.pdf)
