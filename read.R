@@ -8,17 +8,17 @@ library(ggplot2)
 ## LOAD DATA ##
 ################################################################################
 cluster_data <- read_csv("data/trachoma_sero_transmission_analysis_cluster.csv")
-indiv_data <- read_csv("data/trachoma_sero_transmission_analysis_indiv.csv")
 study_data <- read_csv("data/trachoma_sero_transmission_analysis_study.csv")
+## indiv_data <- read_csv("data/trachoma_sero_transmission_analysis_indiv.csv")
 
 ################################################################################
 ## BASIC ANALYSIS ##
 ################################################################################
 summary(cluster_data)   # Summarize cluster-level data
-summary(indiv_data)     # Summarize individual-level data
 summary(study_data)     # Summarize study-level data
+## summary(indiv_data)     # Summarize individual-level data
 
-# str() or head()
+quit()
 
 ################################################################################
 ## PREPARE AND ANALYZE INDIVIDUAL-LEVEL SEROPREVALENCE ##
