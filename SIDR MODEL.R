@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Load libraries
+=======
+
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -6,8 +10,11 @@ library(ggplot2)
 library(deSolve)
 library(reshape2)
 
+<<<<<<< HEAD
 # ─────────────────────────────────────────────────────────────
 # Load and preprocess data
+=======
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 individual_data <- read_csv("trachoma_sero_transmission_analysis_indiv.csv", show_col_types = FALSE)
 
 # Filter for WUHA 2016 and classify
@@ -33,12 +40,20 @@ seroprev_data <- individual_data %>%
     var_seroprev = seroprev_obs * (1 - seroprev_obs) / n_sero
   )
 
+<<<<<<< HEAD
 # Drop rows with NA midpoints (if any)
+=======
+# Drop rows with NA midpoints 
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 model_data <- seroprev_data %>%
   filter(!is.na(age_mid)) %>%
   select(age_mid, n_sero, seroprev_obs, var_seroprev)
 
+<<<<<<< HEAD
 # ─────────────────────────────────────────────────────────────
+=======
+
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 # SIDR Model Functions
 
 # Constant λ
@@ -102,9 +117,13 @@ loss_function_decreasing <- function(lambda_0, model_data, parameters_fixed) {
   sum(residuals, na.rm = TRUE)
 }
 
+<<<<<<< HEAD
 # ─────────────────────────────────────────────────────────────
 # Fit models
 
+=======
+# Fit models
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 parameters_fixed <- c(gamma = 2, rho = 1, sigma = 0.5)  # rates per year
 
 fit_const <- optim(
@@ -134,9 +153,14 @@ model_data <- model_data %>%
     predicted_decreasing = predict_seroprev_decreasing(fit_decr$par, age_mid, parameters_fixed)
   )
 
+<<<<<<< HEAD
 # ─────────────────────────────────────────────────────────────
 # Plot results
 
+=======
+
+# Plot results
+>>>>>>> 64454bd34d2c415ad9b82ce4643309776034d3fb
 plot_data <- model_data %>%
   pivot_longer(
     cols = starts_with("predicted"),
